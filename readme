@@ -1,1 +1,2 @@
 docker-compose up --detach
+https://docs.fluentd.org/container-deployment/docker-compose
