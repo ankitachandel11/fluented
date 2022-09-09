@@ -13,9 +13,9 @@ services:
         tag: httpd.access
 
   fluentd:
-    build: ./fluentd
+    build: .
     volumes:
-      - ./fluentd/conf:/fluentd/etc
+      - .:/fluentd/etc
     links:
       - "elasticsearch"
     ports:
